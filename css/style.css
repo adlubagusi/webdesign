@@ -1,33 +1,5 @@
-/*
- * A Design by GraphBerry
- * Author: GraphBerry
- * Author URL: http://graphberry.com
- * License: http://graphberry.com/pages/license
- */
-
-/* Table of content
-1.General - This is created general styles and overide some bootstrap classes.
-2.Layout
- 2.1 Animations
- 2.2 Buttons
- 2.3 Thumbnail - overide bootstrap thumbnail and add mased efect
- 2.4 Socail icons -style for social icons list
-3 Sections - definition for section and subsection
- 3.1 Services
- 3.2 Portfolio
- 3.3 About
- 3.4 Clients
- 3.5 Price table
- 3.6 Newsletter
- 3.7 Contact
- 3.8 Footer
-4 Responsive 
-**********************************************************************/
-
-/*
-1. General
-**********************************************************************/
- body {
+/* desain by Welly */
+body {
     font-family:'Roboto', sans-serif;
     color: #FFF;
     line-height:1.2em;
@@ -374,7 +346,7 @@ p {
     color:#FFF;
 }
 .secondary-section {
-    background:#FECE1A;
+    background:#0090d7;
 }
 .secondary-section .title {
     border-bottom: 1px solid #181A1C;
