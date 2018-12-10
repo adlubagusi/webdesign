@@ -5,7 +5,7 @@
     position: relative;
     margin:0 auto;
     overflow: hidden;
-    background: transparent url(../images/batu/alun-alun-batu.jpg   ) repeat-x 0% center; /* Replace with your background image*/
+    background: transparent url(../images/batu/alunbat.png   ) repeat-x 0% center; /* Replace with your background image*/
     background-size:auto 100%;
     -webkit-transition: background-position 1s ease-out 0.3s;
     -moz-transition: background-position 1s ease-out 0.3s;
@@ -26,7 +26,7 @@
     left:0;
     width:100%;
     height:100%;
-    background: #005095;
+    background: #6ebbff;
     opacity: 0.55;
     filter: alpha(opacity=55);
 }
