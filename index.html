@@ -61,28 +61,11 @@
                     <div class="da-slide">
                         <h2 class="fittext2">SELAMAT DATANG DI KOTA BATU</h2>
                         <p> Salah tau tempat wisata terbaik di Indonesia yang populer akan tempat wisatanya yang bagus karena potensi keindahan alam yang luar biasa.</p>
-                        <a href="#" class="da-link button" id="myBtn">Informasi lebih lanjut</a>
+                        <a href="#" class="da-link button" data-toggle="modal" data-target="#exampleModal">Informasi lebih lanjut</a>
 
                             <!-- modal home -->
-                                <!-- The Modal -->
-                                <div id="myModal" class="modal">
-
-                                    <!-- Modal content -->
-                                    <div class="modal-content">
-                                            <div class="modal-header">
-                                                <span class="close">&times;</span>
-                                            <h2>Modal Header</h2>
-                                            </div>
-                                            <div class="modal-body">
-                                            <p>Some text in the Modal Body</p>
-                                            <p>Some other text...</p>
-                                            </div>
-                                            <div class="modal-footer">
-                                            <h3>Modal Footer</h3>
-                                            </div>
-                                        </div>
-                                
-                                </div>
+                            <!-- Modal -->
+                           
                         <div class="da-img">
                             <img src="images/Slider01.png" alt="image01" width="320">
                         </div>
@@ -646,6 +629,28 @@
                 <i class="icon-up-open"></i>
             </a>
         </div>
+
+
+        <!-- modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    ...
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
         <!-- ScrollUp button end -->
         <!-- Include javascript -->
         <script src="js/jquery.js"></script>
