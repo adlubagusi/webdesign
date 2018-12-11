@@ -9,6 +9,7 @@
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <!-- Load css styles -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/modal-home.css" />
         <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/style2.css" />
@@ -59,9 +60,29 @@
                     <!-- Start first slide -->
                     <div class="da-slide">
                         <h2 class="fittext2">SELAMAT DATANG DI KOTA BATU</h2>
-                        <h4>Clean & responsive</h4>
-                        <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
-                        <a href="#" class="da-link button">Read more</a>
+                        <p> Salah tau tempat wisata terbaik di Indonesia yang populer akan tempat wisatanya yang bagus karena potensi keindahan alam yang luar biasa.</p>
+                        <a href="#" class="da-link button" id="myBtn">Informasi lebih lanjut</a>
+
+                            <!-- modal home -->
+                                <!-- The Modal -->
+                                <div id="myModal" class="modal">
+
+                                    <!-- Modal content -->
+                                    <div class="modal-content">
+                                            <div class="modal-header">
+                                                <span class="close">&times;</span>
+                                            <h2>Modal Header</h2>
+                                            </div>
+                                            <div class="modal-body">
+                                            <p>Some text in the Modal Body</p>
+                                            <p>Some other text...</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <h3>Modal Footer</h3>
+                                            </div>
+                                        </div>
+                                
+                                </div>
                         <div class="da-img">
                             <img src="images/Slider01.png" alt="image01" width="320">
                         </div>
@@ -633,6 +654,7 @@
         <script type="text/javascript" src="js/modernizr.custom.js"></script>
         <script type="text/javascript" src="js/jquery.bxslider.js"></script>
         <script type="text/javascript" src="js/jquery.cslider.js"></script>
+        <script type="text/javascript" src="js/modal.home.js"></script>
         <script type="text/javascript" src="js/jquery.placeholder.js"></script>
         <script type="text/javascript" src="js/jquery.inview.js"></script>
         <!-- Load google maps api and call initializeMap function defined in app.js -->
