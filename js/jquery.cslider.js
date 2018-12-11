@@ -10,7 +10,7 @@
     };
 
     $.Slider.defaults = {
-        width:1170, //Max slider width
+        width:1270, //Max slider width
         height:500, //max slider height
         current: 0, // index of current slide
         bgincrement: 100, // increment the bg position (parallax effect) when sliding
