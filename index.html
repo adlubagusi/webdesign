@@ -9,9 +9,9 @@
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <!-- Load css styles -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-        <link rel="stylesheet" type="text/css" href="css/modal-home.css" />
         <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/modal.css" />
         <link rel="stylesheet" type="text/css" href="css/style2.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.cslider.css" />
         <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
@@ -149,7 +149,7 @@
             <div class="container">
                 <div class=" title">
                     <h1>Anda ingin kemana ?</h1>
-                    <p> Disini kami menyediakan berbagai tempat menarik dari Kota Batu </p>
+                    <p> Disini kami merekomendasikan berbagai tempat menarik dari Kota Batu </p>
                 </div>
                 <ul class="nav nav-pills">
                     <li class="filter" data-filter="all">
@@ -158,10 +158,10 @@
                     <li class="filter" data-filter="wisata">
                         <a href="#noAction">Wisata</a>
                     </li>
-                    <li class="filter" data-filter="photo">
+                    <li class="filter" data-filter="kuliner">
                         <a href="#noAction">Kuliner</a>
                     </li>
-                    <li class="filter" data-filter="identity">
+                    <li class="filter" data-filter="hotel">
                         <a href="#noAction">Hotel</a>
                     </li>
                 </ul>
@@ -169,12 +169,12 @@
                 <div id="single-project">
                     <div id="slidingDiv" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/Portfolio01.png" alt="project 1" />
+                            <img src="images/batu/cobantalun.jpg" alt="project 1" />
                         </div>
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Coban Talun</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
@@ -189,8 +189,10 @@
                                     <div>
                                         <span>Link</span>http://examplecomp.com</div>
                                 </div>
-                                <p>Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy.</p>
-                                <button class="btn btn-info"> Pergi ke tempat ini</button>
+                                <p>Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy.</p>  
+                                <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+                                  Saya mau kesini
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -198,12 +200,12 @@
                     <!-- Start details for portfolio project 2 -->
                     <div id="slidingDiv1" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/Portfolio02.png" alt="project 2">
+                            <img src="images/batu/bns.jpg" alt="project 2">
                         </div>
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Batu Night Spectacular</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
@@ -219,6 +221,9 @@
                                         <span>Link</span>http://examplecomp.com</div>
                                 </div>
                                 <p>Life is a song - sing it. Life is a game - play it. Life is a challenge - meet it. Life is a dream - realize it. Life is a sacrifice - offer it. Life is love - enjoy it.</p>
+                                <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+                                    Saya mau kesini
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -226,12 +231,12 @@
                     <!-- Start details for portfolio project 3 -->
                     <div id="slidingDiv2" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/Portfolio03.png" alt="project 3">
+                            <img src="images/batu/museumangkut.jpg" alt="project 3">
                         </div>
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Museum Angkut</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
@@ -247,6 +252,9 @@
                                         <span>Link</span>http://examplecomp.com</div>
                                 </div>
                                 <p>How far you go in life depends on your being tender with the young, compassionate with the aged, sympathetic with the striving and tolerant of the weak and strong. Because someday in your life you will have been all of these.</p>
+                                <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+                                    Saya mau kesini
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -254,12 +262,12 @@
                     <!-- Start details for portfolio project 4 -->
                     <div id="slidingDiv3" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/Portfolio04.png" alt="project 4">
+                            <img src="images/batu/lesehanpring.jpg" alt="project 4">
                         </div>
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Project for Some Client</h3>
+                                    <h3>Lesehan Pring Pethuk</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
@@ -282,12 +290,12 @@
                     <!-- Start details for portfolio project 5 -->
                     <div id="slidingDiv4" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/Portfolio05.png" alt="project 5">
+                            <img src="images/batu/junglefood.jpg" alt="project 5">
                         </div>
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Jungle Fast Food</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
@@ -310,12 +318,12 @@
                     <!-- Start details for portfolio project 6 -->
                     <div id="slidingDiv5" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/Portfolio06.png" alt="project 6">
+                            <img src="images/batu/satehotplet.jpg" alt="project 6">
                         </div>
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Sate Hotplet</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
@@ -339,12 +347,12 @@
                     <!-- Start details for portfolio project 7 -->
                     <div id="slidingDiv6" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/Portfolio07.png" alt="project 7">
+                            <img src="images/batu/purnamahotel.jpg" alt="project 7">
                         </div>
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Purnama Hotel</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
@@ -367,12 +375,12 @@
                     <!-- Start details for portfolio project 8 -->
                     <div id="slidingDiv7" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/Portfolio08.png" alt="project 8">
+                            <img src="images/batu/goldentuliphotel.jpg" alt="project 8">
                         </div>
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Golden Tulip Hotel</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
@@ -395,12 +403,12 @@
                     <!-- Start details for portfolio project 9 -->
                     <div id="slidingDiv8" class="toggleDiv row-fluid single-project">
                         <div class="span6">
-                            <img src="images/Portfolio09.png" alt="project 9">
+                            <img src="images/batu/amartahotel.jpeg" alt="project 9">
                         </div>
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Amarta Hills Hotel and Resort</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
@@ -423,100 +431,100 @@
                     <ul id="portfolio-grid" class="thumbnails row">
                         <li class="span4 mix wisata">
                             <div class="thumbnail">
-                                <img src="images/Portfolio01.png" alt="project 1">
+                                <img src="images/batu/cobantalun.jpg" alt="project 1">
                                 <a href="#single-project" class="more show_hide" rel="#slidingDiv">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Coban Talun</h3>
+                                <p>Air terjun indah yang jatuh ke kolam alami, dikelilingi pakis dan bebatuan di tengah hutan lebat</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
-                        <li class="span4 mix photo">
+                        <li class="span4 mix wisata">
                             <div class="thumbnail">
-                                <img src="images/Portfolio02.png" alt="project 2">
+                                <img src="images/batu/bns.jpg" alt="project 2">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Batu Night Spectacular</h3>
+                                <p>Menggabungkan konsep pusat perbelanjaan, permainan, olahraga, dan hiburan di dalamnya</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
-                        <li class="span4 mix identity">
+                        <li class="span4 mix wisata">
                             <div class="thumbnail">
-                                <img src="images/Portfolio03.png" alt="project 3">
+                                <img src="images/batu/museumangkut.jpg" alt="project 3">
                                 <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Museum Angkut</h3>
+                                <p>Merupakan museum transportasi dan tempat wisata modern yang terletak di Kota Batu</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
-                        <li class="span4 mix wisata">
+                        <li class="span4 mix kuliner">
                             <div class="thumbnail">
-                                <img src="images/Portfolio04.png" alt="project 4">
+                                <img src="images/batu/lesehanpring.jpg" alt="project 4">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Lesehan Pring Pethuk</h3>
+                                <p> Jl. Cemara Kipas Dalam, Sidomulyo, Batu, Sidomulyo, Kec. Batu, Kota Batu.</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
                         <li class="span4 mix photo">
                             <div class="thumbnail">
-                                <img src="images/Portfolio05.png" alt="project 5">
+                                <img src="images/batu/junglefood.jpg" alt="project 5">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Jungle Fast Food</h3>
+                                <p>Jl. Oro-Oro Ombo No.9, Temas, Kec. Batu, Kota Batu, Jawa Timur.</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
                         <li class="span4 mix identity">
                             <div class="thumbnail">
-                                <img src="images/Portfolio06.png" alt="project 6">
+                                <img src="images/batu/satehotplet.jpg" alt="project 6">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Sate Hotplet</h3>
+                                <p>Jl. Patimura No.40, Temas, Kec. Batu, Kota Batu, Jawa Timur.</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
-                        <li class="span4 mix wisata">
+                        <li class="span4 mix Hotel">
                             <div class="thumbnail">
-                                <img src="images/Portfolio07.png" alt="project 7" />
+                                <img src="images/batu/purnamahotel.jpg" alt="project 7" />
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv6">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Purnama Hotel</h3>
+                                <p>Jl. Raya Selecta No.1-15, Punten, Bumiaji, Kota Batu, Jawa Timur.</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
                         <li class="span4 mix photo">
                             <div class="thumbnail">
-                                <img src="images/Portfolio08.png" alt="project 8">
+                                <img src="images/batu/goldentuliphotel.jpg" alt="project 8">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Goledn Tulip hotel</h3>
+                                <p>Jl. Bukit Panderman Hill, Temas, Kec. Batu, Kota Batu, Jawa Timur.</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
                         <li class="span4 mix identity">
                             <div class="thumbnail">
-                                <img src="images/Portfolio09.png" alt="project 9">
+                                <img src="images/batu/amartahotel.jpeg" alt="project 9">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Amarta Hills Hotel and Resort</h3>
+                                <p>Jalan Abdul Gani Atas, Ngaglik, Kecamatan Batu, Ngaglik, Kec. Batu, Kota Batu.</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -630,41 +638,59 @@
             </a>
         </div>
 
-
-        <!-- modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                    </div>
-                    <div class="modal-body">
-                    ...
-                    </div>
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                </div>
-                </div>
-            </div>
+    
         <!-- ScrollUp button end -->
         <!-- Include javascript -->
+        
         <script src="js/jquery.js"></script>
         <script type="text/javascript" src="js/jquery.mixitup.js"></script>
         <script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript" src="js/modernizr.custom.js"></script>
         <script type="text/javascript" src="js/jquery.bxslider.js"></script>
         <script type="text/javascript" src="js/jquery.cslider.js"></script>
-        <script type="text/javascript" src="js/modal.home.js"></script>
         <script type="text/javascript" src="js/jquery.placeholder.js"></script>
         <script type="text/javascript" src="js/jquery.inview.js"></script>
         <!-- Load google maps api and call initializeMap function defined in app.js -->
         <script async="" defer="" type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script>
         <!-- css3-mediaqueries.js for IE8 or older -->
         <script type="text/javascript" src="js/app.js"></script>
+        
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog  modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Pilihan</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row" style="margin:0;">
+                    <div class="card" style="background: #28a745!important;">
+                        <div class="img-container circle-border">
+                            <img src="images/batu/gunung.png" alt="">
+                        </div>
+                        <h3>Objek Wisata</h3>
+                        <button div="btn btn-primary">Telusuri</button>
+                    </div>
+                    <div class="card" style="background: #dc3545!important">
+                        <div class="img-container circle-border">
+                            <img src="images/batu/resto.png" alt="">
+                        </div>
+                        <h3>Kuliner</h3>
+                    </div>
+                    <div class="card" style="background: #ffc107!important;">
+                        <div class="img-container">
+                            <img src="images/batu/tas.png" alt="">
+                        </div>
+                        <h3>Hotel</h3>
+                    </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </body>
 </html>
