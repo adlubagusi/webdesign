@@ -1,0 +1,38 @@
+.info-page{
+    display: block;
+    top: 120px;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+.information{
+    background-color: rgba(0,0,0,.6);
+    height: 610px;
+    position: relative;
+}
+.video{
+    overflow: hidden;
+    width: 1349px;
+    height: 759px;
+    left: 0px;
+    top: -46px;
+}
+.img-info{
+    z-index: 2;
+    width: 280px;
+    height: 165px;
+}
+.image-place{
+    margin: 20px 5px 10px 20px;
+    height: 100% !important;
+}
+.info-place{
+    position: absolute;
+    top: 10px;
+    left: 24%;
+    width: 47%;
+}
+.address{
+    margin: 20px 11px;
+    line-height: 2;
+}
