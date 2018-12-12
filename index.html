@@ -283,6 +283,9 @@
                                         <span>Link</span>http://examplecomp.com</div>
                                 </div>
                                 <p>Life's but a walking shadow, a poor player, that struts and frets his hour upon the stage, and then is heard no more; it is a tale told by an idiot, full of sound and fury, signifying nothing.</p>
+                                <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+                                    Saya mau kesini
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -311,6 +314,9 @@
                                         <span>Link</span>http://examplecomp.com</div>
                                 </div>
                                 <p>We need to give each other the space to grow, to be ourselves, to exercise our diversity. We need to give each other space so that we may both give and receive such beautiful things as ideas, openness, dignity, joy, healing, and inclusion.</p>
+                                <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+                                    Saya mau kesini
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -339,7 +345,9 @@
                                         <span>Link</span>http://examplecomp.com</div>
                                 </div>
                                 <p>I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived.</p>
-                                <button class="btn btn-info"> Pergi ke tempat ini</button>
+                                <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+                                    Saya mau kesini
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -512,7 +520,7 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Goledn Tulip hotel</h3>
+                                <h3>Golden Tulip hotel</h3>
                                 <p>Jl. Bukit Panderman Hill, Temas, Kec. Batu, Kota Batu, Jawa Timur.</p>
                                 <div class="mask"></div>
                             </div>
@@ -543,41 +551,7 @@
                 </div>
                 <div class="map-wrapper">
                     <div class="map-canvas" id="map-canvas">Loading map...</div>
-                    <div class="container">
-                        <div class="row-fluid">
-                            <div class="span5 contact-form centered">
-                                <h3>Say Hello</h3>
-                                <div id="successSend" class="alert alert-success invisible">
-                                    <strong>Well done!</strong>Your message has been sent.</div>
-                                <div id="errorSend" class="alert alert-error invisible">There was an error.</div>
-                                <form id="contact-form" action="php/mail.php">
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <input class="span12" type="text" id="name" name="name" placeholder="* Your name..." />
-                                            <div class="error left-align" id="err-name">Please enter name.</div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <input class="span12" type="email" name="email" id="email" placeholder="* Your email..." />
-                                            <div class="error left-align" id="err-email">Please enter valid email adress.</div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <textarea class="span12" name="comment" id="comment" placeholder="* Comments..."></textarea>
-                                            <div class="error left-align" id="err-comment">Please enter your comment.</div>
-                                        </div>
-                                    </div>
-                                    <div class="control-group">
-                                        <div class="controls">
-                                            <button id="send-mail" class="message-btn">Send message</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
                 <div class="container">
                     <div class="span9 center contact-info">
@@ -655,6 +629,7 @@
         <!-- css3-mediaqueries.js for IE8 or older -->
         <script type="text/javascript" src="js/app.js"></script>
         
+        <!--Modal mau kesini-->
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
           <div class="modal-dialog  modal-lg" role="document">
             <div class="modal-content">
@@ -666,22 +641,22 @@
                 <div class="row" style="margin:0;">
                     <div class="card" style="background: #28a745!important;">
                         <div class="img-container circle-border">
-                            <img src="images/batu/gunung.png" alt="">
+                            <img src="images/batu" alt="">
                         </div>
-                        <h3>Objek Wisata</h3>
-                        <button div="btn btn-primary">Telusuri</button>
+                        <h3>Pilih Jalur</h3>
+                        <button class="btn btn-primary" id="btnPilihJalur">Telusuri</button>
                     </div>
                     <div class="card" style="background: #dc3545!important">
                         <div class="img-container circle-border">
-                            <img src="images/batu/resto.png" alt="">
+                            <img src="images/batu/" alt="">
                         </div>
-                        <h3>Kuliner</h3>
+                        <h3>Pilih Transportasi</h3>
                     </div>
                     <div class="card" style="background: #ffc107!important;">
                         <div class="img-container">
-                            <img src="images/batu/tas.png" alt="">
+                            <img src="images/batu/" alt="">
                         </div>
-                        <h3>Hotel</h3>
+                        <h3>Pilih Penginapan</h3>
                     </div>
                 </div>
               </div>
@@ -692,5 +667,34 @@
             </div>
           </div>
         </div>
+
+        <!--Modal pilih jalur-->
+        <div class="modal fade" id="modalPilihjalur" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog  modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel" style="color: #000;">Pilihan Jalur</h4>
+              </div>
+              <div class="modal-body" style="color: #000;">
+                <dl class="accordion">
+
+                    <div class="acc-heading"><a href="">Panel 1</a></div>
+                    <div class="acc-content">Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</div>
+                   
+                    <div class="acc-heading"><a href="">Panel 2</a></div>
+                    <div class="acc-content">Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</div>
+
+                    <div class="acc-heading"><a href="">Panel 3</a></div>
+                    <div class="acc-content">Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</div>
+
+
+                </dl>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
     </body>
 </html>
