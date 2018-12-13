@@ -36,3 +36,10 @@
     margin: 20px 11px;
     line-height: 2;
 }
+.right-info{
+    position: absolute;
+    top: 25px;
+    right: 115px;
+    width: 300px;
+    height: 300px;
+}
