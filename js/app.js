@@ -381,12 +381,12 @@ $("#send-mail").click(function () {
     });
 });
 
-//Initialize google map for contact setion with your location.
+// js maps
 
 function initializeMap() {
 
-    var lat = -7.871286; //Set your latitude.
-    var lon = 112.526683; //Set your longitude.
+    var lat = -7.871286; 
+    var lon = 112.526683; 
 
     var centerLon = lon - 0.0105;
 
@@ -408,7 +408,7 @@ function initializeMap() {
     });
 
     var infowindow = new google.maps.InfoWindow({
-        content: "Your content goes here!"
+        content: "Tujuan Anda ada disini"
     });
 
     google.maps.event.addListener(marker, 'click', function () {
