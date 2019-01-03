@@ -7,7 +7,7 @@
 }
 .information{
     background-color: rgba(0,0,0,.6);
-    height: 610px;
+    height: 635px;
     position: relative;
 }
 .video{
@@ -50,6 +50,49 @@
     top: 50%;
     right: 2%;
     width: 25%;
+}
+.comment{
+    width: 300px;
+    margin: 25px 55px 0px 55px;
+    height: 350px;
+}
+.people1{
+    margin-top: 10px; 
+}
+.people2{
+    margin-top: 30px; 
+}
+.people3{
+    margin-top: 30px; 
+}
+.fotpep{
+    margin: 0px 10px;
+    border: 1px solid #0000001c;
+    width: 50px;
+    height: 45px;
+    float: left;
+    border-radius: 50px;
+}
+.com{
+    padding-top: 5px !important;
+    padding: 0;
+    font-size: 11px;
+    line-height: 1;
+}
+.ulasan{
+    color: #FECE1A; 
+    margin-left: 10px;
+}
+.title-wahana{
+    color: #FECE1A; 
+    font-weight: bold; 
+}
+.wahana-information{
+    line-height: 1.4;
+    text-indent: 3pc;
+    text-align: justify;
+    word-spacing: 1px;
+    padding-right: 25px;
 }
 @media only screen and (max-width: 1050px) {
     body {
@@ -104,14 +147,14 @@
         text-align:center;
     }
     .information{
-        background-color: rgba(0,0,0,.6);
+        background-color: #181818;
         height: 100%;
         position: relative;
     }
     .img-info{
         width: 320px;
         height: 220px;
-        margin-top: 27px;
+        margin-top: 85px;
     }
     .place-video{
         padding-top: 7%;
@@ -149,5 +192,52 @@
         top: 35%;
         right: 2%;
         width: 44%;
+    }
+    .comment{
+        position: absolute;
+        width: 300px;
+        height: 350px;
+        top: 57%;
+        left: 48%;
+    }
+    .people1{
+        margin-top: 10px; 
+    }
+    .people2{
+        margin-top: 30px; 
+    }
+    .people3{
+        margin-top: 30px; 
+    }
+    .fotpep{
+        margin: 0px 10px;
+        border: 1px solid #0000001c;
+        width: 50px;
+        height: 45px;
+        float: left;
+        border-radius: 50px;
+    }
+    .com{
+        padding-top: 5px !important;
+        padding: 0;
+        font-size: 11px;
+        line-height: 1;
+    }
+    .ulasan{
+        color: #FECE1A; 
+        margin-left: 10px;
+    }
+    .title-wahana{
+        color: #FECE1A; 
+        font-weight: bold; 
+        position: absolute;
+        top: 2%;
+    }
+    .wahana-information{
+        line-height: 1.4;
+        text-indent: 3pc;
+        text-align: justify;
+        width: 315px;
+        word-spacing: 1px;
     }
 }
