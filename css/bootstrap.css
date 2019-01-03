@@ -4603,16 +4603,18 @@ input[type="submit"].btn.btn-mini {
           background-clip: padding-box;
 }
 
+
 .modal.fade {
-  top: -25%;
+  display: none;
   -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
      -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
        -o-transition: opacity 0.3s linear, top 0.3s ease-out;
           transition: opacity 0.3s linear, top 0.3s ease-out;
 }
 
-.modal.fade.in {
+.modal .fade .in {
   top: 10%;
+  display: unset;
 }
 
 .modal-header {
@@ -4935,7 +4937,8 @@ input[type="submit"].btn.btn-mini {
 .thumbnails > li {
   float: left;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 17px;  
+  border-radius: 10px;
 }
 
 .thumbnail {

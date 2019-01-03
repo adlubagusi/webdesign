@@ -5,7 +5,7 @@
     position: relative;
     margin:0 auto;
     overflow: hidden;
-    background: transparent url(../images/batu/alunbat.png   ) repeat-x 0% center; /* Replace with your background image*/
+    background-image: url("../images/black-pattern.jpg");
     background-size:auto 100%;
     -webkit-transition: background-position 1s ease-out 0.3s;
     -moz-transition: background-position 1s ease-out 0.3s;
@@ -14,6 +14,18 @@
     transition: background-position 1s ease-out 0.3s;
 }
 
+.da-link{
+    top: 250px;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    z-index: 9999;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1.5px solid #fece1a;
+
+}
 .da-slider .triangle{
     clear: none;
     top:0;
@@ -21,15 +33,25 @@
 }
 
 .da-slider .mask {
+    background: rgba();
+    background-size:auto 100%;
     position:absolute;
     top:0;
     left:0;
     width:100%;
     height:100%;
-    background: #6ebbff;
-    opacity: 0.55;
     filter: alpha(opacity=55);
 }
+
+.header-slider {
+
+    color: #fece1a !important;
+    font-weight: 600 !important;
+    letter-spacing: 1.8px;
+    font-size: 50px !important;
+
+}
+
 .da-slider .container {
     margin-top:-30px;
     position:relative;
@@ -169,12 +191,12 @@
     background-position: top right;
 }
 .da-arrows span.da-arrows-prev {
-    left: 15px;
+    left: 5px;
     background:transparent url(../images/Left.png) no-repeat center center;
     background-size: 25px;
 }
 .da-arrows span.da-arrows-next {
-    right: 15px;
+    right: 5px;
     background:transparent url(../images/Right.png) no-repeat center center;
     background-size: 25px;
 }
