@@ -6,6 +6,7 @@
     $("#btnPilihJalur").click(function(){
         $('#modalKeCobanTalun').modal('hide');
         $('#modalPilihjalur').modal('show');
+        
     });
 
     $("#btnPilihtransport").click(function(){

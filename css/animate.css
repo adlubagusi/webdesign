@@ -751,6 +751,7 @@
 	-moz-animation-name: fadeInDown;
 	-o-animation-name: fadeInDown;
 	animation-name: fadeInDown;
+	border-radius: 10px;
 }
 @-webkit-keyframes fadeInLeft {
 	0% {
