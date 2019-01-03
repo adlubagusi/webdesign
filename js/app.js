@@ -4,9 +4,15 @@
  jQuery(document).ready(function ($) {
 
     $("#btnPilihJalur").click(function(){
-        $('#myModal').modal('hide');
+        $('#modalKeCobanTalun').modal('hide');
         $('#modalPilihjalur').modal('show');
     });
+
+    $("#btnPilihtransport").click(function(){
+        $('#modalKeCobanTalun').modal('hide');
+        $('#modalPilihtransport').modal('show');
+    });
+
 
      var allPanels = $('.accordion > .acc-content').hide();
     
