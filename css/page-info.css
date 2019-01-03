@@ -1,9 +1,9 @@
 .info-page{
-    display: block;
-    top: 120px;
+    top: 15%;
     position: absolute;
-    width: 100%;
+    width: 96%;
     z-index: 0;
+    margin: 0 2%;  
 }
 .information{
     background-color: rgba(0,0,0,.6);
@@ -20,7 +20,9 @@
 .img-info{
     z-index: 2;
     width: 280px;
-    height: 165px;
+    height: 235px;
+    margin-left: 5%;
+    margin-top: 2.5%;
 }
 .image-place{
     margin: 20px 5px 10px 20px;
@@ -29,7 +31,7 @@
 .info-place{
     position: absolute;
     top: 10px;
-    left: 24%;
+    left: 27%;
     width: 47%;
 }
 .address{
@@ -38,8 +40,114 @@
 }
 .right-info{
     position: absolute;
-    top: 25px;
-    right: 115px;
+    top: 3% ;
+    right: 2%;
     width: 300px;
     height: 300px;
+}
+.footer-info{
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    width: 25%;
+}
+@media only screen and (max-width: 1050px) {
+    body {
+        display: block;
+        padding-left:0;
+        padding-right:0;
+    }
+    .navbar .container {
+        width: 100%;
+        padding: 0;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        position: fixed;
+    }
+    .navbar .nav > li > a {
+        line-height: 20px;
+        vertical-align: middle;
+    }
+    .section {
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .nav-collapse {
+        clear: both;
+    }
+    .nav-collapse .nav {
+        float: none;
+        margin: 0 0 10px;
+    }
+    .nav-collapse .nav > li {
+        float: none;
+    }
+    .nav-collapse, .nav-collapse.collapse {
+        width: 100%;
+        display: inherit;
+    }
+    .thumbnail .more {
+        margin-left:-21px;
+        width:40px;
+        height:40px;
+        border-radius:30px;
+        line-height: 40px;
+    }
+    .thumbnail:hover .more {
+        margin-top:-20px;
+    }
+    .newsletter form {
+        text-align:center;
+    }
+    .information{
+        background-color: rgba(0,0,0,.6);
+        height: 100%;
+        position: relative;
+    }
+    .img-info{
+        width: 320px;
+        height: 220px;
+        margin-top: 27px;
+    }
+    .place-video{
+        padding-top: 7%;
+        height: 483px;
+    }
+    .info-page{
+        width: 100%;
+        z-index: 0;
+        position: inherit;
+        top: 0;
+        margin: 0;
+    }
+    .video{
+        width: 100%;
+        height: 100%;
+    }
+    .info-place{
+        position: inherit;
+        width: 47%;
+        margin-left: 37px;
+    }
+    .address{
+        margin: 20px 11px;
+        line-height: 2;
+    }
+    .right-info{
+        position: absolute;
+        top: 3% ;
+        right: 2%;
+        width: 300px;
+        height: 300px;
+    }
+    .footer-info {
+        position: absolute;
+        top: 35%;
+        right: 2%;
+        width: 44%;
+    }
 }
