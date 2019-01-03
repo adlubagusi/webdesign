@@ -1,5 +1,19 @@
 /* desain by Welly */
 
+.table-htm tr td{
+    border: 1px solid;
+    padding: 5px;
+}
+
+.project-description p{
+    text-align: justify;
+    text-indent: 3pc;
+}
+
+table tr td {
+    border: 1px solid;
+    padding: 2px 5px;
+}
 body {
     font-family:'Roboto', sans-serif;
     color: #FFF;
@@ -30,7 +44,7 @@ p {
     position: relative;
 }
 .navbar {
-    z-index: 1;
+    z-index: 9999;
     position: fixed;
     background: #181A1C;
     margin-bottom: 0;
@@ -91,6 +105,7 @@ p {
     padding-left:25px;
     padding-right:25px;
     border: 1px solid #181A1C;
+    color: #efefef;
 }
 .nav-pills > li > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
     background: #181A1C;
@@ -358,13 +373,14 @@ p {
     color:#FFF;
 }
 .secondary-section {
-    background:#45baff;
+    background:#343434;
 }
 .secondary-section .title {
-    border-bottom: 1px solid #181A1C;
+    border-bottom: 1px solid #efefef;
 }
 .secondary-section h1, .secondary-section .title p {
-    color: #181A1C;
+    color: #efefef;
+    letter-spacing: 0.4px;
 }
 /* Third section use bacground image */
 .third-section {
@@ -737,7 +753,7 @@ p {
     color:#fff;
 }
 .contact .social li a:hover {
-    color:#181A1C;
+    color:#ccc;
 }
 .contact-form {
     background:#fff;
@@ -770,7 +786,7 @@ p {
     width:60%;
     margin:0 auto;
     padding:15px;
-    color:#181A1C;
+    color:#efefef;
 }
 .black {
     color:#181A1C;
