@@ -366,7 +366,7 @@ p {
     font-weight: lighter;
 }
 .primary-section {
-    background:#181A1C;
+    background:#111111;
 }
 .primary-section .triangle {
     border-top: 40px solid #FECE1A;
@@ -514,183 +514,6 @@ p {
     padding:0;
     font-size:16px;
 }
-/*********************************************************************
-                        SKILLS BAR
-*********************************************************************/
- .skills {
-    list-style-type: none;
-    position: relative;
-    margin:0px;
-}
-.skills li {
-    margin-bottom:30px;
-    background:#FFF;
-    height:40px;
-    padding:1px;
-}
-.skills li h3 {
-    position: relative;
-    font-size: 15px;
-    padding:0;
-    margin:0;
-    left: 10px;
-    z-index: 1;
-    color: #181A1C;
-}
-.skills li .bar {
-    height:40px;
-    position:absolute;
-    background-color: #FECE1A;
-}
-/*
-3.4 Clients
-**********************************************************************/
- .client-slider img {
-    border:1px solid white;
-}
-.client-slider img:hover {
-    background-color:#FECE1A;
-}
-.client-nav {
-    list-style:none;
-    margin-top:10px;
-}
-.client-nav li {
-    float:left;
-    display:block;
-    margin-left:10px;
-}
-.client-nav li a {
-    display:inherit;
-    padding:5px;
-    background:#FECE1A;
-    border-radius:3px;
-    width:20px;
-    height:20px;
-}
-.client-nav li a:hover {
-    background:#181A1C;
-}
-.testimonial p {
-    color:#181A1C;
-    background:#FECE1A;
-    padding:15px;
-    margin:0;
-}
-.testimonial .arrow {
-    margin-left:10px;
-    width:0;
-    border-top:10px solid #FECE1A;
-    border-left: 20px outset transparent;
-    border-right: 20px outset transparent;
-}
-.testimonial .whopic {
-    display:inline-block;
-}
-.testimonial .whopic img {
-    margin-top:10px;
-    width:50px;
-    height:50px;
-    float:left;
-}
-.testimonial .whopic strong {
-    float:left;
-    margin-top:10px;
-    padding-left:10px;
-}
-.testimonial .whopic small {
-    display:block;
-    font-size:12px;
-    
-}
-.testimonial-text{
-    display:block;
-    font-size:22px;
-    text-align:center;
-    margin:0 auto;
-    margin-top:30px;
-    width:70%;
-    line-height:1.3em;
-}
-/*
-3.5 Price table
-******************************************************************/
- .price-table {
-    margin-top: 70px;
-    margin-bottom: 20px;
-}
-.price-column {
-    background-color:white;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    padding-bottom:20px;
-    margin:0 auto;
-    text-align:center;
-}
-.price-column h3 {
-    background-color:#181A1C;
-    text-transform:uppercase;
-    text-align: center;
-    color:#FECE1A;
-    padding:40px 0px;
-    font-size: 36px;
-    margin-top:0px;
-    -moz-border-radius: 0px;
-    -webkit-border-radius: 10px 10px 0px 0px;
-    border-radius: 10px 10px 0px 0px;
-}
-.price-column .list{
-    list-style:none;
-    margin:20px 50px;
-}
-.price-column .list li{
-    font-weight:lighter;
-    color:#747C89;
-    font-size:20px;
-    border-bottom:1px solid #747C89;
-    padding:25px 0px;
-}
-.price-column .list li.price {
-    text-align: center;
-    font-size:31px;
-    background-color:white;
-    color:#747C89;
-    margin-top:25px;
-}
-.price-text{
-    margin:30px 0 20px;
-    font-size:20px;
-    color: #181A1C;
-    font-weight:normal;
-}
-/*
-3.6 Newsletter
-********************************************************************/
- .newsletter, .newsletter h2 {
-    color: #D7DDDE;
-}
-.newsletter .title h2 {
-    text-align:left;
-    padding:0;
-    margin:0;
-}
-.newsletter form {
-    text-align:right;
-}
-.newsletter input {
-    margin-top:10px;
-    padding:15px;
-    height: auto;
-}
-.newsletter button {
-    margin: 0 0 0 20px;
-}
-.newsletter .button-sp:hover, .newsletter .button-sp:active {
-    background-color:#FFF;
-    color:#181A1C;
-}
-
 /*
 3.7 Contact
 ********************************************************************/
@@ -838,6 +661,41 @@ p {
     top:7px;
     color:#fff;
 }
+
+/* button info lanjut */
+.btn-info-lanjut{
+    background-color:transparent;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:10px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.btn-info-lanjut:hover {
+    background-color:#18ab29;
+    border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:10px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.btn-info-lanjut:active {
+	position:relative;
+	top:3px;
+}
+
+
 /*
 4 Responsible
 ********************************************************************/
