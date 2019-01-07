@@ -6,8 +6,6 @@
   /* fix buttons height */
   line-height: 1.0em;
  
-  /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
 }
  
 .icon-plus { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe826;&nbsp;'); }

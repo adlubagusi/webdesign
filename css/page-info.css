@@ -94,6 +94,9 @@
     word-spacing: 1px;
     padding-right: 25px;
 }
+.button-footer{
+    margin-right: 25px; margin-top: 25px;
+}
 .way {
 	-moz-box-shadow:inset 0px 0px 5px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 0px 5px 0px #ffffff;
@@ -124,9 +127,9 @@
 	cursor:pointer;
 	color:#ffcc00;
 	font-family:Trebuchet MS;
-	font-size:15px;
+	font-size:17px;
 	font-weight:bold;
-	padding:10px 20px;
+	padding:10px 15px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffcc00;
 }
@@ -134,7 +137,7 @@
 	position:relative;
 	top:1px;
 }
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 720px) {
     body {
         display: block;
         padding-left:0;
@@ -274,10 +277,248 @@
         top: 2%;
     }
     .wahana-information{
+        padding: 0;
         line-height: 1.4;
         text-indent: 3pc;
         text-align: justify;
         width: 315px;
         word-spacing: 1px;
+    }
+    .way {
+        -moz-box-shadow:inset 0px 0px 5px 0px #ffffff;
+        -webkit-box-shadow:inset 0px 0px 5px 0px #ffffff;
+        box-shadow:inset 0px 0px 5px 0px #ffffff;
+        background-color:transparent;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Trebuchet MS;
+        font-size:15px;
+        font-weight:bold;
+        padding:10px 20px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffcc00;
+    }
+    .way:hover {
+        -moz-box-shadow:inset 0px 0px 10px 0px #ffffff;
+        -webkit-box-shadow:inset 0px 0px 10px 0px #ffffff;
+        box-shadow:inset 0px 0px 10px 0px #ffffff;
+        background-color:transparent;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffcc00;
+        font-family:Trebuchet MS;
+        font-size:17px;
+        font-weight:bold;
+        padding:10px 15px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffcc00;
+    }
+    .way:active {
+        position:relative;
+        top:1px;
+    }
+    .button-footer{
+        width: 195%;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (min-width: 900px) and ( max-width: 1080px) {
+    body {
+        display: block;
+        padding-left:0;
+        padding-right:0;
+    }
+    .navbar .container {
+        width: 100%;
+        padding: 0;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        position: fixed;
+    }
+    .navbar .nav > li > a {
+        line-height: 20px;
+        vertical-align: middle;
+    }
+    .section {
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .nav-collapse {
+        clear: both;
+    }
+    .nav-collapse .nav {
+        float: none;
+        margin: 0 0 10px;
+    }
+    .nav-collapse .nav > li {
+        float: none;
+    }
+    .nav-collapse, .nav-collapse.collapse {
+        width: 100%;
+        display: inherit;
+    }
+    .thumbnail .more {
+        margin-left:-21px;
+        width:40px;
+        height:40px;
+        border-radius:30px;
+        line-height: 40px;
+    }
+    .thumbnail:hover .more {
+        margin-top:-20px;
+    }
+    .newsletter form {
+        text-align:center;
+    }
+    .information{
+        background-color: #181818;
+        height: 100%;
+        position: relative;
+    }
+    .img-info{
+        width: 510px;
+        height: 320px;
+        margin-top: 85px;
+    }
+    .place-video{
+        padding-top: 7%;
+        height: 483px;
+    }
+    .info-page{
+        width: 100%;
+        z-index: 0;
+        position: inherit;
+        top: 0;
+        margin: 0;
+    }
+    .video{
+        width: 100%;
+        height: 100%;
+    }
+    .info-place{
+        position: inherit;
+        width: 47%;
+        margin-left: 37px;
+    }
+    .address{
+        margin: 20px 11px;
+        line-height: 2;
+    }
+    .right-info{
+        position: absolute;
+        top: 3% ;
+        right: 7%;
+        width: 400px;
+        height: 400px;
+    }
+    .footer-info {
+        position: absolute;
+        top: 44%;
+        right: 2%;
+        width: 44%;
+    }
+    .comment{
+        position: absolute;
+        width: 415px;
+        height: 350px;
+        top: 64%;
+        left: 50.5%;
+    }
+    .people1{
+        margin-top: 10px; 
+    }
+    .people2{
+        margin-top: 30px; 
+    }
+    .people3{
+        margin-top: 30px; 
+    }
+    .fotpep{
+        margin: 0px 10px;
+        border: 1px solid #0000001c;
+        width: 50px;
+        height: 45px;
+        float: left;
+        border-radius: 50px;
+    }
+    .com{
+        padding-top: 5px !important;
+        padding: 0;
+        font-size: 11px;
+        line-height: 1;
+    }
+    .ulasan{
+        color: #FECE1A; 
+        margin-left: 10px;
+    }
+    .title-wahana{
+        color: #FECE1A; 
+        font-weight: bold; 
+        position: absolute;
+        top: 2%;
+    }
+    .wahana-information{
+        line-height: 1.4;
+        text-indent: 3pc;
+        text-align: justify;
+        width: 555px;
+        word-spacing: 1px;
+    }
+    .way {
+        -moz-box-shadow:inset 0px 0px 5px 0px #ffffff;
+        -webkit-box-shadow:inset 0px 0px 5px 0px #ffffff;
+        box-shadow:inset 0px 0px 5px 0px #ffffff;
+        background-color:transparent;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Trebuchet MS;
+        font-size:15px;
+        font-weight:bold;
+        padding:10px 20px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffcc00;
+    }
+    .way:hover {
+        -moz-box-shadow:inset 0px 0px 10px 0px #ffffff;
+        -webkit-box-shadow:inset 0px 0px 10px 0px #ffffff;
+        box-shadow:inset 0px 0px 10px 0px #ffffff;
+        background-color:transparent;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffcc00;
+        font-family:Trebuchet MS;
+        font-size:17px;
+        font-weight:bold;
+        padding:10px 15px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffcc00;
+    }
+    .way:active {
+        position:relative;
+        top:1px;
+    }
+    .button-footer{
+        width: 105%;
+        margin-top: 0;
+        margin-bottom: 15px;
     }
 }
