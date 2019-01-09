@@ -82,10 +82,8 @@
 
     $('input, textarea').placeholder();
 
-    // Bind to scroll
     $(window).scroll(function () {
 
-        //Display or hide scroll to top button 
         if ($(this).scrollTop() > 100) {
             $('.scrollup').fadeIn();
         } else {
@@ -98,16 +96,13 @@
             $('.navbar').removeClass('navbar-fixed-top animated fadeInDown');
         }
 
-        // Get container scroll position
         var fromTop = $(this).scrollTop() + topMenuHeight + 10;
 
-        // Get id of current scroll item
         var cur = scrollItems.map(function () {
             if ($(this).offset().top < fromTop)
                 return this;
         });
 
-        // Get the id of the current element
         cur = cur[cur.length - 1];
         var id = cur && cur.length ? cur[0].id : "";
 
@@ -120,9 +115,6 @@
         }
     });
 
-    /*
-    Function for scroliing to top
-    ************************************/
     $('.scrollup').click(function () {
         $("html, body").animate({
             scrollTop: 0
@@ -130,6 +122,12 @@
         return false;
     });
 
+    $('.scrollDowm').click(function(){
+        $("html, body").animate({
+            scrollDowm:0
+        }, 600)
+        return false;
+    })
 
     $(window).load(function () {
         function filterPath(string) {
@@ -145,7 +143,6 @@
 
                     $(this).click(function () {
 
-                        //Hack collapse top navigation after clicking
                         topMenu.parent().attr('style', 'height:0px').removeClass('in'); //Close navigation
                         $('.navbar .btn-navbar').addClass('collapsed');
 
@@ -160,52 +157,7 @@
         });
 });
 
-    /*
-    Sand newsletter
-    **********************************************************************/
-    $('#subscribe').click(function () {
-        var error = false;
-        var emailCompare = /^([a-z0-9_.-]+)@([0-9a-z.-]+).([a-z.]{2,6})$/; // Syntax to compare against input
-        var email = $('input#nlmail').val().toLowerCase(); // get the value of the input field
-        if (email == "" || email == " " || !emailCompare.test(email)) {
-            $('#err-subscribe').show(500);
-            $('#err-subscribe').delay(4000);
-            $('#err-subscribe').animate({
-                height: 'toggle'
-            }, 500, function () {
-                // Animation complete.
-            });
-            error = true; // change the error state to true
-        }
-
-        if (error === false) {
-            $.ajax({
-                type: 'POST',
-                url: 'php/newsletter.php',
-
-                data: {
-                    email: $('#nlmail').val()
-                },
-                error: function (request, error) {
-                    alert("An error occurred");
-                },
-                success: function (response) {
-                    if (response == 'OK') {
-                        $('#success-subscribe').show();
-                        $('#nlmail').val('')
-                    } else {
-                        alert("An error occurred");
-                    }
-                }
-            });
-        }
-
-        return false;
-    });
-
-    /*
-Sand mail
-**********************************************************************/
+    
 $("#send-mail").click(function () {
 
         var name = $('input#name').val(); // get the value of the input field
