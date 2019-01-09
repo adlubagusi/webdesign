@@ -122,7 +122,7 @@
         return false;
     });
 
-    $('.scrollDowm').clikc(function(){
+    $('.scrollDowm').click(function(){
         $("html, body").animate({
             scrollDowm:0
         }, 600)
