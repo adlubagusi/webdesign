@@ -108,7 +108,7 @@
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-size:14px;
+	font-size:13px;
 	padding:10px 20px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffcc00;
@@ -133,7 +133,7 @@
 	position:relative;
 	top:1px;
 }
-@media only screen and (max-width: 720px) {
+@media (min-width: 585px) and (max-width: 767px) {
     body {
         display: block;
         padding-left:0;
@@ -197,7 +197,7 @@
     }
     .place-video{
         padding-top: 7%;
-        height: 483px;
+        height: auto;
     }
     .info-page{
         width: 100%;
@@ -322,7 +322,7 @@
         margin-bottom: 15px;
     }
 }
-@media only screen and (min-width: 900px) and ( max-width: 1080px) {
+@media (min-width: 768px) and (max-width: 1100px) and (orientation: landscape) {
     body {
         display: block;
         padding-left:0;
@@ -386,7 +386,7 @@
     }
     .place-video{
         padding-top: 7%;
-        height: 483px;
+        height: auto;
     }
     .info-page{
         width: 100%;
@@ -510,3 +510,381 @@
         margin-bottom: 15px;
     }
 }
+
+@media (min-width: 400px) and (max-width: 584px) {
+    body {
+        display: block;
+        padding-left:0;
+        padding-right:0;
+    }
+    .navbar .container {
+        width: 100%;
+        padding: 0;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        position: fixed;
+    }
+    .navbar .nav > li > a {
+        line-height: 20px;
+        vertical-align: middle;
+    }
+    .section {
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .nav-collapse {
+        clear: both;
+    }
+    .nav-collapse .nav {
+        float: none;
+        margin: 0 0 10px;
+    }
+    .nav-collapse .nav > li {
+        float: none;
+    }
+    .nav-collapse, .nav-collapse.collapse {
+        width: 100%;
+        display: inherit;
+    }
+    .thumbnail .more {
+        margin-left:-21px;
+        width:40px;
+        height:40px;
+        border-radius:30px;
+        line-height: 40px;
+    }
+    .thumbnail:hover .more {
+        margin-top:-20px;
+    }
+    .newsletter form {
+        text-align:center;
+    }
+    .information{
+        background-color: #181818;
+    height: 111%;
+    position: relative;
+    }
+    .img-info{
+        width: 85%;
+        height: 70%;
+        margin-top: 85px;
+    }
+    .place-video{
+        padding-top: 7%;
+        height: auto;
+    }
+    .info-page{
+        width: 100%;
+        z-index: 0;
+        position: inherit;
+        top: 0;
+        margin: 0;
+    }
+    .video{
+        width: 100%;
+        height: 100%;
+    }
+    .info-place{
+        position: inherit;
+    width: 47%;
+    margin-left: 37px;
+    }
+    .address{
+        margin: 20px 11px;
+        line-height: 2;
+    }
+    .right-info{
+        position: inherit;
+        width: 300px;
+        height: 300px;
+        top: 0; 
+        right: 0 !important;
+        margin-left: 8%;
+    }
+    .footer-info {
+        position: inherit;
+        width: 92%;
+        margin-left: 3%;
+    }
+    .comment{
+        width: 85%;
+    height: 350px;
+    margin-left: 6%;
+    }
+    .people1{
+        margin-top: 10px; 
+    }
+    .people2{
+        margin-top: 30px; 
+    }
+    .people3{
+        margin-top: 30px; 
+    }
+    .fotpep{
+        margin: 0px 10px;
+        border: 1px solid #0000001c;
+        width: 50px;
+        height: 45px;
+        float: left;
+        border-radius: 50px;
+    }
+    .com{
+        padding-top: 5px !important;
+        padding: 0;
+        font-size: 11px;
+        line-height: 1;
+    }
+    .ulasan{
+        color: #FECE1A; 
+        margin-left: 10px;
+    }
+    .title-wahana{
+        color: #FECE1A; 
+        font-weight: bold; 
+        position: absolute;
+        top: 1%;
+    }
+    .wahana-information{
+        padding: 0;
+        line-height: 1.4;
+        text-indent: 3pc;
+        text-align: justify;
+        width: 160%;
+        word-spacing: 1px;
+    }
+    .way {
+        -moz-box-shadow:inset 0px 0px 5px 0px #ffffff;
+        -webkit-box-shadow:inset 0px 0px 5px 0px #ffffff;
+        box-shadow:inset 0px 0px 5px 0px #ffffff;
+        background-color:transparent;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-size:10px;
+        padding:10px 20px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffcc00;
+    }
+    .way:hover {
+        -moz-box-shadow:inset 0px 0px 10px 0px #ffffff;
+        -webkit-box-shadow:inset 0px 0px 10px 0px #ffffff;
+        box-shadow:inset 0px 0px 10px 0px #ffffff;
+        background-color:transparent;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffcc00;
+        font-size:12px;
+        padding:10px 15px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffcc00;
+    }
+    .way:active {
+        position:relative;
+        top:1px;
+    }
+    .button-footer{
+        width: 195%;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+}
+  
+@media (min-width: 200px) and (max-width: 399px) {
+    body {
+        display: block;
+        padding-left:0;
+        padding-right:0;
+    }
+    .navbar .container {
+        width: 100%;
+        padding: 0;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        position: fixed;
+    }
+    .navbar .nav > li > a {
+        line-height: 20px;
+        vertical-align: middle;
+    }
+    .section {
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .nav-collapse {
+        clear: both;
+    }
+    .nav-collapse .nav {
+        float: none;
+        margin: 0 0 10px;
+    }
+    .nav-collapse .nav > li {
+        float: none;
+    }
+    .nav-collapse, .nav-collapse.collapse {
+        width: 100%;
+        display: inherit;
+    }
+    .thumbnail .more {
+        margin-left:-21px;
+        width:40px;
+        height:40px;
+        border-radius:30px;
+        line-height: 40px;
+    }
+    .thumbnail:hover .more {
+        margin-top:-20px;
+    }
+    .newsletter form {
+        text-align:center;
+    }
+    .information{
+        background-color: #181818;
+    height: 111%;
+    position: relative;
+    }
+    .img-info{
+        width: 85%;
+        height: 70%;    
+        margin-top: 85px;
+    }
+    .place-video{
+        padding-top: 7%;
+        height: auto;
+    }
+    .info-page{
+        width: 100%;
+        z-index: 0;
+        position: inherit;
+        top: 0;
+        margin: 0;
+    }
+    .video{
+        width: 100%;
+        height: 100%;
+    }
+    .info-place{
+        position: inherit;
+        width: 47%;
+        margin-left: 37px;
+    }
+    .address{
+        margin: 20px 11px;
+        line-height: 2;
+    }
+    .right-info{
+        position: inherit;
+        width: 300px;
+        height: 300px;
+        top: 0; 
+        right: 0 !important;
+        margin-left: 8%;
+    }
+    .footer-info {
+        position: inherit;
+        width: 92%;
+        margin-left: 3%;
+    }
+    .comment{
+        width: 85%;
+    height: 350px;
+    margin-left: 6%;
+    }
+    .people1{
+        margin-top: 10px; 
+    }
+    .people2{
+        margin-top: 30px; 
+    }
+    .people3{
+        margin-top: 30px; 
+    }
+    .fotpep{
+        margin: 0px 10px;
+        border: 1px solid #0000001c;
+        width: 50px;
+        height: 45px;
+        float: left;
+        border-radius: 50px;
+    }
+    .com{
+        padding-top: 5px !important;
+        padding: 0;
+        font-size: 11px;
+        line-height: 1;
+    }
+    .ulasan{
+        color: #FECE1A; 
+        margin-left: 10px;
+    }
+    .title-wahana{
+        color: #FECE1A; 
+        font-weight: bold; 
+        position: absolute;
+        top: 1%;
+    }
+    .wahana-information{
+        padding: 0;
+        line-height: 1.4;
+        text-indent: 3pc;
+        text-align: justify;
+        width: 160%;
+        word-spacing: 1px;
+    }
+    .way {
+        -moz-box-shadow:inset 0px 0px 5px 0px #ffffff;
+        -webkit-box-shadow:inset 0px 0px 5px 0px #ffffff;
+        box-shadow:inset 0px 0px 5px 0px #ffffff;
+        background-color:transparent;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-size:9px;
+        padding:5px 10px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffcc00;
+        margin: 10px 0px;
+    }
+    .way:hover {
+        -moz-box-shadow:inset 0px 0px 10px 0px #ffffff;
+        -webkit-box-shadow:inset 0px 0px 10px 0px #ffffff;
+        box-shadow:inset 0px 0px 10px 0px #ffffff;
+        background-color:transparent;
+        -moz-border-radius:5px;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffcc00;
+        font-size:9px;
+        padding:5px 10px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffcc00;
+    }
+    .way:active {
+        position:relative;
+        top:1px;
+    }
+    .button-footer{
+        width: 109%;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+}
+  
