@@ -4,7 +4,7 @@
 <head>
     <meta charset=utf-8>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Tempat Wisata Cangar | Kota Batu</title>
+    <title> Rumah Makan Jungle Fast Food | Kota Batu</title>
     <!-- Load Roboto font -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet'
         type='text/css'>
@@ -87,8 +87,8 @@
                     </h4>
 
                     <div class="button-footer">
-                        <a href="#" class="way">CARI JALAN KE TEMPAT INI</a>
-                        <a href="#" class="way" style="float: right;">CARI TEMPAT PENGINAPAN TERDERKAT</a>
+                        <a href="#" data-target="#modalPilihjalurJungle" data-toggle="modal" class="way">CARI JALAN KE TEMPAT INI</a>
+                        <a href="#" data-target="#ModalCariPenginapan" data-toggle="modal" class="way" style="float: right;">CARI TEMPAT PENGINAPAN TERDERKAT</a>
                     </div>
                 </div>
 
@@ -120,11 +120,39 @@
 
 
 
+     <!--Modal-->
+        <div class="modal fade" id="modalPilihjalurJungle" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog  modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel" style="color: #000;">Pilihan Jalur Ke Jungle Fast Food</h4>
+              </div>
+              <div class="modal-body" style="color: #000;">
+                <div class="accordion">
 
+                    <div class="acc-heading"><a href="">Dari arah Lawang ke Jungle Fast Food</a></div>
+                    <div class="acc-content"><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d126475.18050833564!2d112.53928900184063!3d-7.858455094594319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x2dd62b340aa6f3f1%3A0x4027a76e3531670!2sLawang%2C+Malang%2C+Jawa+Timur!3m2!1d-7.830759!2d112.697098!4m5!1s0x2e787c2dca970625%3A0x9f9b3c052b1f9902!2sCoban+Talun%2C+Desa%2C+Tulungrejo%2C+Kota+Batu%2C+Jawa+Timur!3m2!1d-7.8050557!2d112.51705829999999!5e0!3m2!1sid!2sid!4v1544676204347" width="500" height="200" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                   
+                    <div class="acc-heading"><a href="">Dari arah Malang ke Jungle Fast Food</a></div>
+                    <div class="acc-content"><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d126466.83271176594!2d112.51551735215583!3d-7.885807086149182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x2dd62822063dc2fb%3A0x78879446481a4da2!2sMalang%2C+Kota+Malang%2C+Jawa+Timur!3m2!1d-7.9666204!2d112.6326321!4m5!1s0x2e787c2dca970625%3A0x9f9b3c052b1f9902!2sCoban+Talun%2C+Desa%2C+Tulungrejo%2C+Kota+Batu%2C+Jawa+Timur!3m2!1d-7.8050557!2d112.51705829999999!5e0!3m2!1sid!2sid!4v1544676166580" width="500" height="200" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+
+                    <div class="acc-heading"><a href="">Dari arah Blitar ke Jungle Fast Food</a></div>
+                    <div class="acc-content"><iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d505725.73840710643!2d112.3136987334964!3d-8.000758515437276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x2e78eb3e59dda50f%3A0x6ce6e27c1403adc7!2sBlitar%2C+Jawa+Timur!3m2!1d-8.1308657!2d112.2200091!4m5!1s0x2e787c2dca970625%3A0x9f9b3c052b1f9902!2sCoban+Talun%2C+Desa%2C+Tulungrejo%2C+Kota+Batu%2C+Jawa+Timur!3m2!1d-7.8050557!2d112.51705829999999!5e0!3m2!1sid!2sid!4v1544676111350" width="500" height="200" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+    <!--End of modal-->
 
 
     <!-- Include javascript -->
-    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/jquery.mixitup.js"></script>
     <script type="text/javascript" src="../js/bootstrap.js"></script>
     <script type="text/javascript" src="../js/modernizr.custom.js"></script>
