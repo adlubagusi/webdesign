@@ -324,7 +324,7 @@
         margin-bottom: 15px;
     }
 }
-@media (min-width: 768px) and (max-width: 1100px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1100px) {
     body {
         display: block;
         padding-left:0;
@@ -382,7 +382,7 @@
         position: relative;
     }
     .img-info{
-        width: 510px;
+        width: 50%;
         height: 320px;
         margin-top: 85px;
     }
@@ -414,8 +414,8 @@
         position: absolute;
         top: 3% ;
         right: 7%;
-        width: 400px;
-        height: 400px;
+        width: 40%;
+        height: 35%;
     }
     .footer-info {
         position: absolute;
@@ -467,7 +467,7 @@
         line-height: 1.4;
         text-indent: 3pc;
         text-align: justify;
-        width: 555px;
+        width: 110%;
         word-spacing: 1px;
     }
     .way {
