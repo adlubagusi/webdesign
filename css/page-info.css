@@ -1,5 +1,8 @@
 /* desain by Welly */
 
+.list-penginapan li{
+    list-style: none;
+}
 .info-page{
     top: 15%;
     position: absolute;
